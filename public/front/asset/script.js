@@ -56,9 +56,7 @@ if (demoForm) {
 }
 
 // Load saved mode
-if (localStorage.getItem('theme') === 'dark') {
-    body.classList.add('dark');
-}
+
 
 // toggleBtn.addEventListener('click', () => {
 //     body.classList.toggle('dark');

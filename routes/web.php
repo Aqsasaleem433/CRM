@@ -13,9 +13,9 @@ Route::get('/', function () {
 //     ->name('demo-request');
 
 
-Route::get('/', function () {
-    return view('admin.home');
-})->middleware(['auth', 'verified'])->name('home');
+// Route::get('/', function () {
+//     return view('admin.home');
+// })->middleware(['auth', 'verified'])->name('home');
 //   Route::get('/admin/email', [HomeController::class, 'email'])->name('admin.email');
 
 // Route::middleware('auth')->group(function () {
